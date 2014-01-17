@@ -1,5 +1,5 @@
 {
-    "name": "kolyadin/twig-ruNumber-extension",
+    "name": "kolyadin/twig-ru-number-extension",
     "description": "Russian text depending on numbers",
     "keywords": ["twig", "extension", "ru", "russian"],
     "homepage": "https://github.com/kolyadin/twig-ruNumber-extension",
