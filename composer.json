@@ -16,6 +16,8 @@
         "twig/twig": "1.*"
     },
     "autoload": {
-        "psr-0": { "TwigExtensionRuNumber": "src/ruNumber/" }
+        "classmap": [
+            "src/ruNumber/TwigExtensionRuNumber.php"
+        ]
     }
 }
