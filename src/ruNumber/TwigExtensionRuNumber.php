@@ -12,6 +12,7 @@ class TwigExtensionRuNumber extends \Twig_Extension{
 		return array(
 			new \Twig_SimpleFilter('ruNumber', array($this, 'ruNumber')),
 		);
+
 	}
 
 	public function ruNumber(){
