@@ -22,6 +22,7 @@ class TwigExtensionRuNumber extends \Twig_Extension{
 
 		if ($n == 1) $pluralNum = 0;
 
+
 		return sprintf('%d %s', $n, func_get_args()[1][$pluralNum]);
 	}
 
