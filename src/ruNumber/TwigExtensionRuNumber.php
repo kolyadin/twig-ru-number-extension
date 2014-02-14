@@ -15,7 +15,6 @@ class TwigExtensionRuNumber extends \Twig_Extension{
 
 	}
 
-//	kid.commentsCount|ruNumber('Получилось %d %s',['комментарий','комментария','комментариев'])
 	public function ruNumber(){
 		$args = func_get_args();
 
